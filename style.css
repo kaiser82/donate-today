@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
 .top-part {
     background-image: url(/images/donation13.jpg);
     background-repeat: no-repeat;
@@ -23,9 +27,50 @@ body {
 
 .link-btn {
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 15px 25px;
     border-radius: 5px;
     background-color: tomato;
     color: white;
     font-size: 20px;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.donate-today h1{
+    font-size: 50px;
+}
+
+.flexible-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexible-content h2 {
+    padding: 30px;
+}
+
+.taka-select {
+    color:tomato;
+    background-color: rgb(254, 210, 202);
+    height: 60px;
+    width: 100px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+.taka {
+    color:rgb(92, 92, 92);
+    background-color: rgb(228, 228, 228);
+    height: 60px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.taka-input {
+    outline: none;
+    border:none;
+    border-bottom: 2px solid gray;
 }
