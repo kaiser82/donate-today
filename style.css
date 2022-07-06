@@ -15,10 +15,10 @@ section {
     
     color: white;
     text-align: center;
-    padding: 150px 300px;
+    padding: 130px 250px;
 }
 .top-part h1 {
-    font-size: 65px;
+    font-size: 70px;
     text-align: center;
 }
 .top-part p {
@@ -51,6 +51,10 @@ h1{
     padding: 30px;
 }
 
+.donate-taka {
+    margin: 50px 50px;
+}
+
 .taka-select {
     color:tomato;
     background-color: rgb(254, 210, 202);
@@ -76,6 +80,7 @@ h1{
     outline: none;
     border:none;
     border-bottom: 2px solid gray;
+    font-size: 20px;
     text-align: center;
     margin: 30px 0px;
 }
@@ -133,6 +138,25 @@ h1{
     border-radius: 5px 0px 0px 5px;
     font-size: 15px;
     
+}
+
+.special {
+    margin: 50px 150px;
+}
+
+.special img {
+    width: 100%;
+}
+
+.help-btn {
+    display: block;
+    text-decoration: none;
+    padding: 5px 25px;
+    
+    width: 85%;
+    background-color: tomato;
+    color: white;
+    font-size: 15px;
 }
 
 .foot {
