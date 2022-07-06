@@ -38,7 +38,7 @@ section {
     text-align: center;
 }
 
-.donate-today h1{
+h1{
     font-size: 50px;
 }
 
@@ -55,24 +55,29 @@ section {
     color:tomato;
     background-color: rgb(254, 210, 202);
     height: 60px;
-    width: 100px;
+    width: 70px;
+    margin: 10px;
     border: 2px solid tomato;
     border-radius: 5px;
 }
 
 .taka {
     color:rgb(92, 92, 92);
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(244, 244, 244);
     height: 60px;
-    width: 100px;
-    margin: 20px;
+    width: 70px;
+    margin: 10px;
     border-radius: 5px;
+    
 }
 
 .taka-input {
+    width: 50%;
     outline: none;
     border:none;
     border-bottom: 2px solid gray;
+    text-align: center;
+    margin: 30px 0px;
 }
 
 .donation-plan {
