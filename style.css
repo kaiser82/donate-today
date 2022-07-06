@@ -1,21 +1,31 @@
 body {
-    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
 }
 
 .top-part {
-    background-image: url(/images/donation8.jpg);
+    background-image: url(/images/donation13.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     
     color: white;
     text-align: center;
-    padding: 200px 400px;
+    padding: 200px 300px;
 }
- h1 {
-    font-weight: 900;
+.top-part h1 {
+    font-size: 65px;
+    text-align: center;
+}
+.top-part p {
+    margin-bottom: 50px;
 }
 
 .link-btn {
     text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
 }
