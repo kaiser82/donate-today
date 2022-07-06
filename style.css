@@ -9,13 +9,13 @@ section {
 }
 
 .top-part {
-    background-image: url(/images/donation13.jpg);
+    background-image: url(/images/donation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
     color: white;
     text-align: center;
-    padding: 100px 300px;
+    padding: 150px 300px;
 }
 .top-part h1 {
     font-size: 65px;
